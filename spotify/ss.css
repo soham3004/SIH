@@ -1,0 +1,27 @@
+*{
+    font-family:Georgia;
+    color:#fff;
+    background-color: #000;
+}
+.main{
+    display: flex;
+    height:100vh;
+    background-color:#121212;
+}
+.sidebar{
+    background-color: green;
+    width: 340px;
+    border-radius: 1rem;
+}
+.main_content{
+    flex: 1;
+    overflow: auto;
+    border-radius: 1rem;
+    background-color: blue;
+}
+.music-player{
+    background-color: red;
+    position:fixed;
+    width:100%;
+    height:6rem;
+}
